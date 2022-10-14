@@ -46,11 +46,11 @@ public class vinoth {
 	    
 	    WebElement to = driver.findElement(By.id("lstDestAP"));
 	    Select s1 = new Select(to);
-	    s1.selectByIndex(2);
-	    List<WebElement> allto = s.getAllSelectedOptions();
+	    s1.selectByIndex(6);
+	    List<WebElement> allto = s1.getAllSelectedOptions();
 	    WebElement webElement2 = allto.get(0);
 	    String text3 = webElement2.getText();
-	    Assert.assertEquals("verify to","Bamaga",text3);
+	    Assert.assertEquals("verify to","Coconut Island",text3);
 //	    select from date
 	    Thread.sleep(3000);
 	    WebElement fromdate = driver.findElement(By.id("departure"));
@@ -81,9 +81,6 @@ public class vinoth {
 		boolean enabled = continuebtn.isEnabled();
 		System.out.println(enabled);
 		continuebtn.click();
-		
-		
-		
 	}
 	 @AfterClass
 	  private void test2() {
