@@ -76,6 +76,8 @@ public  class HelperClass  {
 		 driver = new ChromeDriver();
 		 return driver;
 	}
+	
+	
 	public static WebDriver firefoxbrowser() {
 		WebDriverManager.firefoxdriver().setup();
 		 driver = new FirefoxDriver();
@@ -91,6 +93,8 @@ public  class HelperClass  {
 	public static void urllaunch(String url) {
          driver.get(url);		
          }
+	
+        
 //	3.QUIT
 	public static void quit() {
 		driver.quit();

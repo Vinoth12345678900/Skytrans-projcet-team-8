@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-10-15T14:30:36.043Z",
+        "line": 6,
+        "name": "To validate the Booking with valid and invalid credentials",
+        "description": "",
+        "id": "to-validate-the-login-functionality-of-skytrans-application;to-validate-the-booking-with-valid-and-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 43997101900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user should be in Booking page",
+            "match": {
+              "location": "Homepage.the_user_should_be_in_Booking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2382956200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user should enter the Arrival and Departure Details",
+            "match": {
+              "location": "Homepage.the_user_should_enter_the_Arrival_and_Departure_Details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 992666300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user should select the from and to date",
+            "match": {
+              "location": "Homepage.the_user_should_select_the_from_and_to_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 861676000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The user should be next page",
+            "match": {
+              "location": "Homepage.the_user_should_be_next_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the login functionality of Skytrans Application",
+    "description": "",
+    "id": "to-validate-the-login-functionality-of-skytrans-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/feature/Home.feature",
+    "tags": []
+  }
+]
