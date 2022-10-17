@@ -1,16 +1,12 @@
 package org.test;
 
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
 import org.junit.Assert;
-import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
 import Baseclass.HelperClass;
-import io.cucumber.java.en.*;
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
 public class Homepage extends HelperClass {
 	    Homepagepom h;
 @Given("The user should be in Booking page")
