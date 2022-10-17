@@ -7,7 +7,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources",glue="org.test",tags={"@smoke"},
+@CucumberOptions(features="src/test/resources",glue="org.test",tags={"@smoke"},monochrome=true,
         plugin= {"pretty",
         "json:src\\test\\resources\\report\\JsonReport\\jsonreport.json",
         "html:src\\test\\resources\\report",

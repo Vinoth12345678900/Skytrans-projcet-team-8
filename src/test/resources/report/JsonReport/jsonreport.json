@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-10-15T14:36:44.482Z",
+        "start_timestamp": "2022-10-17T06:09:14.187Z",
         "line": 6,
         "name": "To validate the Booking with valid and invalid credentials",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 31885695800,
+              "duration": 12238198000,
               "status": "passed"
             },
             "line": 7,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 2082031000,
+              "duration": 2237618300,
               "status": "passed"
             },
             "line": 8,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 1035922000,
+              "duration": 1144137200,
               "status": "passed"
             },
             "line": 9,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 705180700,
+              "duration": 744176800,
               "status": "passed"
             },
             "line": 10,
