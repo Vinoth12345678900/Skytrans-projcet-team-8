@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17772" started-at="2022-10-14T11:26:49Z" finished-at="2022-10-14T11:27:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17772" started-at="2022-10-14T11:26:49Z" finished-at="2022-10-14T11:27:06Z">
+      <class name="org.test.vinoth">
+        <test-method status="PASS" signature="test()[pri:0, instance:org.test.vinoth@4cf777e8]" name="test" is-config="true" duration-ms="10687" started-at="2022-10-14T11:26:49Z" finished-at="2022-10-14T11:26:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:org.test.vinoth@4cf777e8]" name="test1" duration-ms="7044" started-at="2022-10-14T11:26:59Z" finished-at="2022-10-14T11:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:org.test.vinoth@4cf777e8]" name="test2" is-config="true" duration-ms="0" started-at="2022-10-14T11:27:06Z" finished-at="2022-10-14T11:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- org.test.vinoth -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

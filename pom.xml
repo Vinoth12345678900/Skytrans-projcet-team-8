@@ -10,14 +10,14 @@
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-java</artifactId>
-			<version>4.8.0</version>
+			<version>4.2.0</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
 		<dependency>
 			<groupId>io.cucumber</groupId>
 			<artifactId>cucumber-junit</artifactId>
-			<version>4.8.0</version>
+			<version>4.2.0</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -55,14 +55,12 @@
 			<version>4.12</version>
 			<scope>test</scope>
 		</dependency>
-<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+<!-- https://mvnrepository.com/artifact/net.masterthought/cucumber-reporting -->
 <dependency>
-    <groupId>org.testng</groupId>
-    <artifactId>testng</artifactId>
-    <version>6.14.3</version>
-    <scope>test</scope>
+    <groupId>net.masterthought</groupId>
+    <artifactId>cucumber-reporting</artifactId>
+    <version>5.7.1</version>
 </dependency>
-  
   
   
   

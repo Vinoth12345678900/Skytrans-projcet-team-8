@@ -1,0 +1,7 @@
+Feature: To Validate the login functionality of Skytrans Application
+
+  Scenario: To validate the Booking with valid and invalid credentials [90m# src/test/resources/feature/Home.feature:3[0m
+    [32mGiven [0m[32mThe user should be in Booking page[0m                           [90m# Homepage.the_user_should_be_in_Booking_page()[0m
+    [32mWhen [0m[32mThe user should enter the Arrival and Departure Details[0m       [90m# Homepage.the_user_should_enter_the_Arrival_and_Departure_Details()[0m
+    [32mAnd [0m[32mThe user should select the from and to date[0m                    [90m# Homepage.the_user_should_select_the_from_and_to_date()[0m
+    [32mThen [0m[32mThe user should be next page[0m                                  [90m# Homepage.the_user_should_be_next_page()[0m
