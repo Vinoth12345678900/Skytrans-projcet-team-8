@@ -4,10 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import Baseclass.Baseclass;
+import Baseclass.HelperClass;
 
-
-public class Pompage2 extends Baseclass{
+public class Pompage2 extends HelperClass{
 	public Pompage2() {
 		PageFactory.initElements(driver,this);
 	}

@@ -12,7 +12,7 @@ import cucumber.api.CucumberOptions;
         "json:src\\test\\resources\\report\\JsonReport\\jsonreport.json",
         "html:src\\test\\resources\\report",
         "junit:src\\test\\resources\\report\\JunitReport\\report.xml"})
-public class Testrunner {
+public class TestRunner {
 	@AfterClass
         public static void report() {
 			JVMReport.genarateJVMReport("src\\test\\resources\\report\\JsonReport\\jsonreport.json");

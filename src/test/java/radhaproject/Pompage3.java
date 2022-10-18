@@ -3,11 +3,10 @@ package radhaproject;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import Baseclass.HelperClass;
 
-import Baseclass.Baseclass;
 
-
-public class Pompage3 extends Baseclass{
+public class Pompage3 extends HelperClass{
 	public Pompage3() {
 		PageFactory.initElements(driver,this);
 	}

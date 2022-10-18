@@ -6,6 +6,7 @@ import Baseclass.HelperClass;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import cucumber.runtime.io.Helpers;
 
 public class multitripsteps extends HelperClass{
 	//static WebDriver driver;
@@ -14,15 +15,16 @@ public class multitripsteps extends HelperClass{
 	 
 	@Given("click mutitrip page")
 	public void click_mutitrip_page(){
-		browserlanuch("chrome");
-		brow
-		UrlLanuch("https://book.skytrans.com.au/MultiCitySelect.aspx"); 
+		chromebrowser();
+		urllaunch("https://book.skytrans.com.au/MultiCitySelect.aspx");
+		time(20);
 		maximize();
-		implicitwait(20);
+	}
+		 
 	
 	    
 	         
-	}
+	
 	  
 
 	 
