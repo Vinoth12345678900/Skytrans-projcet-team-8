@@ -15,10 +15,7 @@ public class Homepage extends HelperClass {
 	    Homepagepom h;
 @Given("The user should be in Booking page")
 public void the_user_should_be_in_Booking_page() {
-	chromebrowser();
-	urllaunch("https://www.skytrans.com.au/");
-	time(20);
-	maximize();
+	
 }
 @When("The user should enter the Arrival and Departure Details")
 public void the_user_should_enter_the_Arrival_and_Departure_Details() {
@@ -54,9 +51,34 @@ public void the_user_should_be_next_page() {
 	click(h.getContinuebtn());
 	System.out.println(h.getContinuebtn().isEnabled());
     click(h.getContinuebtn());
-
+}
+@Given("The user should be in flight search page")
+public void the_user_should_be_in_flight_search_page() {
+	
 }
 
+@When("The user should be check the whether the data is present or not")
+public void the_user_should_be_check_the_whether_the_data_is_present_or_not() {
+
+   /* WebElement origin = driver.findElement(By.xpath("//*[text()=' Bamaga (ABM) ']"));
+    String attribute = origin.getText();
+    System.out.println(attribute);
+    WebElement destination = driver.findElement(By.xpath("//*[text()=' Coconut Island (CNC) ']"));
+    WebElement ddate = driver.findElement(By.name("dateRange"));
+    WebElement onewaybtn = driver.findElement(By.xpath("//*[text()=' One Way ']"));
+    WebElement returnbtn = driver.findElement(By.xpath("//*[text()=' Return ']"));
+    WebElement adults = driver.findElement(By.xpath("//*[text()='Adults ']"));
+    WebElement children = driver.findElement(By.xpath("//*[text()='Children ']"));
+    WebElement infants = driver.findElement(By.xpath("//*[text()='Infants ']"));
+    WebElement promocode = driver.findElement(By.id("promoCode"));
+    WebElement findfligh = driver.findElement(By.xpath("//*[text()='Find Flights']"));
+	*/
+}
+
+@Then("The user should be in select flight page")
+public void the_user_should_be_in_select_flight_page() {
+}
+    
 
 
 }
