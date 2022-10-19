@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="35.859957">
-<testcase classname="To Validate the login functionality of Skytrans Application" name="To validate the Booking with valid and invalid credentials" time="35.859957">
-<system-out><![CDATA[Given The user should be in Booking page....................................passed
-When The user should enter the Arrival and Departure Details................passed
-And The user should select the from and to date.............................passed
-Then The user should be next page...........................................passed
-]]></system-out>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="2" time="0.013867">
+<testcase classname="Title of the project SkyTransAirlineProject" name="open a skyairline webpage" time="0.012228">
+<skipped><![CDATA[Given click mutitrip page...................................................undefined
+And usershould in select a arrival place....................................undefined
+When usershould in select depature place....................................undefined
+And usershould in select a date.............................................undefined
+Then I validate the outcomes................................................undefined
+And check more outcomes.....................................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="To Validate the login functionality of Skytrans Application" name="To validate the Booking with valid and invalid credentials" time="0.001639">
+<skipped><![CDATA[Given The user should be in Booking page....................................undefined
+When The user should enter the Arrival and Departure Details................undefined
+And The user should select the from and to date.............................undefined
+Then The user should be next page...........................................undefined
+]]></skipped>
 </testcase>
 </testsuite>

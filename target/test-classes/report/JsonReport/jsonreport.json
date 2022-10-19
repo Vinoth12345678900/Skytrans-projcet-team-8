@@ -1,9 +1,88 @@
 [
   {
+    "line": 3,
+    "elements": [
+      {
+        "line": 7,
+        "name": "open a skyairline webpage",
+        "description": "",
+        "id": "title-of-the-project-skytransairlineproject;open-a-skyairline-webpage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "click mutitrip page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "usershould in select a arrival place",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "usershould in select depature place",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "usershould in select a date",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I validate the outcomes",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "check more outcomes",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Title of the project SkyTransAirlineProject",
+    "description": "",
+    "id": "title-of-the-project-skytransairlineproject",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Multitrip.feature",
+    "tags": []
+  },
+  {
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-10-15T14:36:44.482Z",
         "line": 6,
         "name": "To validate the Booking with valid and invalid credentials",
         "description": "",
@@ -13,50 +92,38 @@
         "steps": [
           {
             "result": {
-              "duration": 31885695800,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 7,
             "name": "The user should be in Booking page",
-            "match": {
-              "location": "Homepage.the_user_should_be_in_Booking_page()"
-            },
+            "match": {},
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 2082031000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 8,
             "name": "The user should enter the Arrival and Departure Details",
-            "match": {
-              "location": "Homepage.the_user_should_enter_the_Arrival_and_Departure_Details()"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1035922000,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 9,
             "name": "The user should select the from and to date",
-            "match": {
-              "location": "Homepage.the_user_should_select_the_from_and_to_date()"
-            },
+            "match": {},
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 705180700,
-              "status": "passed"
+              "status": "undefined"
             },
             "line": 10,
             "name": "The user should be next page",
-            "match": {
-              "location": "Homepage.the_user_should_be_next_page()"
-            },
+            "match": {},
             "keyword": "Then "
           }
         ],
@@ -71,7 +138,7 @@
     "description": "",
     "id": "to-validate-the-login-functionality-of-skytrans-application",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/feature/Home.feature",
+    "uri": "src/test/resources/feature/Home.feature",
     "tags": []
   }
 ]

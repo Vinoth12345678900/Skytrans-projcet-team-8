@@ -10,7 +10,7 @@ import cucumber.api.junit.Cucumber;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/test/resources",glue="org.test",tags={"@smoke"},
+@CucumberOptions(features="src/test/resources",glue="src/test/java",tags={"@smoke"},
         plugin= {"pretty",
         		
         		
