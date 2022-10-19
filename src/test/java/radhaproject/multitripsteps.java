@@ -5,9 +5,9 @@ import java.util.List;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
-import org.stepdefinition.Pompage;
-import org.stepdefinition.Pompage2;
-import org.stepdefinition.Pompage3;
+import radhaproject.Pompage;
+import radhaproject.Pompage2;
+import radhaproject.Pompage3;
 
 import Baseclass.HelperClass;
 import cucumber.api.java.en.Given;
@@ -23,11 +23,13 @@ public class multitripsteps extends HelperClass{
 	 
 	@Given("click mutitrip page")
 	public void click_mutitrip_page(){
-		browserlanuch("chrome");
-		UrlLanuch("https://book.skytrans.com.au/MultiCitySelect.aspx"); 
+		chromebrowser();
+		urllaunch("https://book.skytrans.com.au/MultiCitySelect.aspx"); 
+		time(20);
 		maximize();
-		implicitwait(20);
 	
+		
+		 
 	    
 	         
 	}
